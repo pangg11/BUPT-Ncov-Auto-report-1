@@ -2,7 +2,7 @@ name: Automatically submit the 2019-nCoV report sheet of BUPT
 
 on:
   schedule:
-    - cron: '01 16,01 * * *'
+    - cron: '01 16,00 * * *'
   push:
   pull_request:
 
